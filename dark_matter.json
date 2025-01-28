@@ -604,7 +604,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "text-color": "rgba(124, 123, 123, 1)",
+        "text-color": "rgba(80, 78, 78, 1)",
         "text-halo-blur": 0,
         "text-halo-color": "rgba(0, 0, 0, 1)",
         "text-halo-width": 1,
@@ -678,11 +678,7 @@
       "source-layer": "boundary",
       "minzoom": 5,
       "filter": ["==", "admin_level", 2],
-      "layout": {
-        "line-cap": "round",
-        "line-join": "round",
-        "visibility": "none"
-      },
+      "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
         "line-blur": {"base": 1, "stops": [[0, 0.4], [22, 4]]},
         "line-color": "hsl(0, 0%, 23%)",
